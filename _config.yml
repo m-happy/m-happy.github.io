@@ -1,3 +1,5 @@
 theme: jekyll-theme-dinky
 title: Welcome to a Happy World!
 description: I'll be writing about tech related things I read and find them interesting.
+name: Happy Mahto, Student
+markdown: kramdown
