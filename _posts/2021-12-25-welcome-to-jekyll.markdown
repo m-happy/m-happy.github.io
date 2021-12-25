@@ -1,29 +1,16 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2021-12-25 19:49:32 +0530
-categories: jekyll update
+title:  "bitcoin"
+date:   2021-12-25 19:49:32 -0000
+categories: bitcoin
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+So you’ve heard Bitcoin is peer-to-peer transaction system. You can pay someone 5bitcoin(you wish you had 5 bitcoin to pay someone :p) without a trusted third party(banks). But how does the other person knows that you have 5 bitcoin? If it was in person scenario, payee can see and be satisfied. If it was using banks, they know how much money you can spend and store your transactions for future requests?
 
-`YEAR-MONTH-DAY-title.MARKUP`
+In Bitcoin network, you send a transaction request to everyone(nodes) in the network to validate your transaction. How do they do it? We’ll see. You’re not the only who wants to send some bitcoin to other person, they also broadcast it to everyone. Imagine X is also in the network, and he receives some 20 broadcasts from people who sent transaction request. X tries to verify all these transactions(proof-of-work/mining) and eventually generates a Hash which verifies all these transactions are valid and pushes this block of transactions to everyone that I verified it. Everyone checks and it gets added to a list(Blockchain) of transaction validated till now. X gets rewarded some bitcoin(This is how new bitcoins are generated). 
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+The transaction were broadcasted to a lot of people. Imagine Y also validated the transaction at the same time and broadcasted it’s solution to everyone. Who’ll get rewared, X or Y? Depends on who’s working hard to validate the next block of transactions. The longest proof-of-work chain wins and is accepted by eveyone in the network. 
 
-Jekyll also offers powerful support for code snippets:
+How many bitcoins in a block? When it started for every block mined(validated)you received 50BTC, but it gets halved every 4 years, and now miners receive 6.25BTC.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Q(my brother asked): “Agar banks nahi rahengey to loan kaun dega, aur kitne rate pe, sab apni manmani karenge aur phirse sahukar wale zamane me chale jayenge”(If Bitcoin is widely adopted in future, who’ll provide loan, at what rate?”
