@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "bitcoin"
-date:   2021-12-25 19:49:32 -0000
+date:   2021-12-25 -0000
 categories: bitcoin
 ---
 
