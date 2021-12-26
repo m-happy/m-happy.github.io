@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  bitcoin
 date:   2021-12-25 11:44:00 -0000
 categories: bitcoin
