@@ -32,7 +32,7 @@ github_username:  jekyll
 # plugins:
 #   - jekyll-feed
 
-theme: minima
+theme: jekyll-theme-cayman
 
 # Exclude from processing.
 # The following items will not be processed, by default.
