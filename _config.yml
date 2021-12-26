@@ -32,9 +32,7 @@ github_username:  jekyll
 # plugins:
 #   - jekyll-feed
 
-remote_theme: cayman
-plugins:
-- jekyll-remote-theme 
+theme: jekyll-theme-cayman
 
 # Exclude from processing.
 # The following items will not be processed, by default.
