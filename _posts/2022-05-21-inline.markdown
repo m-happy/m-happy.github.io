@@ -1,0 +1,11 @@
+---
+layout: default
+title:  bitcoin
+date:   2021-12-25 11:44:00 -0000
+categories: bitcoin
+---
+
+As you probably know what inlining in coding means? 
+
+'Inline' is an function attribute, when specified it instead of calling the function it inlines the code of that function at the site of caller. 
+
