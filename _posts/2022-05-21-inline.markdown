@@ -1,8 +1,8 @@
 ---
-layout: default
+# layout: default
 title:  inline
-date:   2022-05-21 01:19:00 -0000
-categories: bitcoin
+# date:   2022-05-21 01:19:00 -0000
+# categories: bitcoin
 ---
 
 As you probably know what inlining in coding means? 
