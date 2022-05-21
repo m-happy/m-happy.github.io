@@ -1,8 +1,8 @@
 ---
-layout: default
+# layout: default
 title:  bitcoin
-date:   2021-12-25 11:44:00 -0000
-categories: bitcoin
+# date:   2021-12-25 11:44:00 -0000
+# categories: bitcoin
 ---
 
 So you’ve heard Bitcoin is peer-to-peer transaction system. You can pay someone 5bitcoin(you wish you had 5 bitcoin to pay someone :p) without a trusted third party(banks). But how does the other person knows that you have 5 bitcoin? If it was in person scenario, payee can see and be satisfied. If it was using banks, they know how much money you can spend and store your transactions for future requests?
