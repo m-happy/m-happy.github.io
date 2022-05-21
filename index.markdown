@@ -4,13 +4,18 @@
 
 layout: default
 ---
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
+<ul id="posts">
+
+	{% for post in paginator.posts %}
+
+	  <li class="post">
+	  	<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+	  	<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
+	  	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
+	  </li>
+
+    {% endfor %}
+
 </ul>
 Hello, How are you?
 Hello! I'm a CSE Graduate of IIT Hyderabad, class of 2021. Currently working as compiler engineer.I'll write about things I find interesting or whatever I learnt and would like everyone to know my perspective on the same topic. Thanks for visiting. 
