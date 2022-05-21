@@ -6,7 +6,7 @@ layout: default
 ---
 <ul id="posts">
 
-	{% for post in paginator.posts %}
+	{% for post in site.posts %}
 
 	  <li class="post">
 	  	<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -14,7 +14,7 @@ layout: default
 	  	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
 	  </li>
 
-    {% endfor %}
+  {% endfor %}
 
 </ul>
 Hello, How are you?
