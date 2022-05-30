@@ -5,9 +5,7 @@ title:  Inlining in LLVM
 # categories: bitcoin
 ---
 
-As you probably know what inlining in coding means? 
-
-'Inline' is an function attribute, when specified it instead of calling the function it copies the code of that function at the site of caller. Even I knew only this about inlining, and then for one of the issues at work I had get my hands dirty and look how it's done in LLVM.
+As you probably know what inlining in coding means? 'Inline' is an function attribute, when specified it instead of calling the function it copies the code of that function at the site of caller. Even I knew only this about inlining, and then for one of the issues at work I had get my hands dirty and look how it's done in LLVM.
 
 So let's dive in.
 
