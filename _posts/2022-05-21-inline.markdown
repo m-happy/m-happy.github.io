@@ -13,10 +13,10 @@ Even I knew only this about inlining, and then for one of the issues at work I h
 
 So let's dive in.
 
-In LLVM, it starts from _ llvm::InlineFunction:InlineFunction.cpp:1748 _ 
+In LLVM, it starts from *llvm::InlineFunction:InlineFunction.cpp:1748* 
 Before starting to inline the functions it checks for some cases which are not covered yet, such as *callbr* instruction is not covered, it also doesn't inline external and indirect function. 
 
-The cloning of the code from callee to caller's callsite starts with _CloneAndPruneFunctionInto:InlineFunction.cpp:1953 _
+The cloning of the code from callee to caller's callsite starts with *CloneAndPruneFunctionInto:InlineFunction.cpp:1953*
 
 and it starts with cloning the entry block and anything reachable from it's SCC graph. After all the basic blocks are cloned, it resolves PHI nodes and simplifies the instructions and conditional branches.  
 
